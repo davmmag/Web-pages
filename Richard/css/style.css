@@ -32,9 +32,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-    background-position: center 0;
     padding: 28px 0;
+    position: absolute;
+    width: 100%;
 }
 
 .header .container {
@@ -61,14 +61,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-    background-position: center -99px;
 }
 
 .hero .container {
     background: url(../img/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: 95% 0;
-    padding-top: 198px;
+    background-position: 95% 100%;
+    padding-top: 298px;
     padding-bottom: 277px;
 }
 
