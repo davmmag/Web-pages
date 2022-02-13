@@ -1,0 +1,7 @@
+@import url('./vars.css');
+@import url('./fonts.css');
+
+body {
+    font-family: 'Gothic A1';
+    font-size: 45px;
+}
