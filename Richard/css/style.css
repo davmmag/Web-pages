@@ -2,6 +2,10 @@
 @import './vars.css';
 @import './normalize.css';
 
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/thirty.css';
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -31,70 +35,21 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
 }
 
-.header {
-    padding: 28px 0;
-    position: absolute;
-    width: 100%;
-}
-
-.header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__list {
-    display: flex;
-}
-
-.list__item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.list__link {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--color-white);
-}
-
-.hero {
-    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-}
-
-.hero .container {
-    background: url(../img/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: 95% 100%;
-    padding-top: 298px;
-    padding-bottom: 277px;
-}
-
-.hero__title {
-    color: var(--color-white);
-    font-size: 80px;
-    line-height: 80px;
-    font-weight: 400;
-}
-
-.hero__description {
-    color: var(--color-white);
-    font-size: 30px;
-    line-height: 44px;
-    font-weight: 400;
-    margin-bottom: 25px;
-}
-
 .btn {
     padding: 0;
     outline: none;
     background: transparent;
     border: none;
+    cursor: pointer;
+    transition: all .2s ease;
 }
 
 .btn_rose {
     color: var(--color-white);
     background-color: #fc0a7e;
-    padding: 20px 40px;
+    padding: 24px 42px;
+}
+
+.btn_rose:hover {
+    background: #70073a;
 }

@@ -1,0 +1,38 @@
+.thirty {
+    background: url(../../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: center 302px;
+    background-color: #1b1b1b;
+    padding-top: 101px;
+    padding-bottom: 712px;
+}
+
+.thirty__block {
+    width: 607px;
+    margin: 0 auto;
+}
+
+.thirty__block .title_xl {
+    color: var(--color-white);
+}
+
+.thirty__block .title_xl, 
+.thirty__block .caption {
+    text-align: center;
+}
+
+
+.title_xl {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.caption {
+    color: #a8a8a8;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}

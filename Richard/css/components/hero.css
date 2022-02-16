@@ -1,0 +1,27 @@
+.hero {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+
+.hero .container {
+    background: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: 95% 100%;
+    padding-top: 298px;
+    padding-bottom: 276px;
+}
+
+.hero__title {
+    color: var(--color-white);
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero__description {
+    color: var(--color-white);
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
