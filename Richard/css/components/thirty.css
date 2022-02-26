@@ -7,6 +7,10 @@
     padding-bottom: 712px;
 }
 
+.thirty h2 {
+    margin: 0;
+}
+
 .thirty__block {
     width: 607px;
     margin: 0 auto;
@@ -22,17 +26,3 @@
 }
 
 
-.title_xl {
-    font-size: 38px;
-    line-height: 48px;
-    font-weight: 400;
-}
-
-.caption {
-    color: #a8a8a8;
-    font-size: 12px;
-    line-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
-}

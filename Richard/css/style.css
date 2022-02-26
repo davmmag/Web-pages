@@ -5,6 +5,7 @@
 @import './components/header.css';
 @import './components/hero.css';
 @import './components/thirty.css';
+@import './components/food.css';
 
 * {
     box-sizing: border-box;
@@ -35,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
 }
 
+
+
 .btn {
     padding: 0;
     outline: none;
@@ -52,4 +55,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn_rose:hover {
     background: #70073a;
+}
+
+.text_small {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--color-dove);
+}
+
+.title_xl {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.caption {
+    color: #a8a8a8;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
 }

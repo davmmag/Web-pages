@@ -1,0 +1,16 @@
+.food {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.food__block {
+    background-repeat: no-repeat;
+    padding: 188px 0 188px 130px;
+}
+
+.food__content{
+    width: 306px;
+}
+
+
